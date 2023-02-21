@@ -1,4 +1,4 @@
-# Nome do Workflow
+# Nome do Workflow local v2
 name: DevOpsLab_local Pipeline
 
 # Evento que irá acionar a pipeline
