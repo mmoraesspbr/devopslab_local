@@ -8,7 +8,7 @@ csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return "Marcelo local 27/02/2023 - Pipeline DevOps - v3"
+    return "Marcelo local 27/02/2023 - Pipeline DevOps - v4"
 
 if __name__ == '__main__':
     app.run()
