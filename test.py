@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*- -
+from app import app
+import unittest
 # -*- coding: utf-8 -*-
 from app import app
 import unittest
@@ -16,5 +19,5 @@ class Test(unittest.TestCase):
 
     def test_conteudo(self):
         # verifica o retorno do conteudo da pagina
-        self.assertEqual(self.result.data.decode('utf-8'), "Marcelo local 27/02/2023 - Pipeline DevOps - v4")
+        self.assertEqual(self.result.data.decode('utf-8'), "Marcelo 05/04/2023 - Pipeline DevOps Local - v1")
 
